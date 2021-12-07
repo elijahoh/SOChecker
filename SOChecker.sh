@@ -275,7 +275,7 @@ function MAIN_DIR_SETUP {
 	#change directory
 	cd ~
 	#validate if $MAIN_DIR directory exists
-	#create $MAIN_DIR dirirectory and assign path to a variable
+	#create $MAIN_DIR directory and assign path to a variable
 	if [ ! -d "$MAIN_DIR" ]; then
 		mkdir $MAIN_DIR
 		sudo updatedb
@@ -310,7 +310,7 @@ function LAN_DIR_SETUP {
 	#change to $MAIN_DIR directory
 	cd ~/$MAIN_DIR
 	#validate if $LAN_DIR directory exists
-	#create $LAN_DIR dirirectory and assign path to a variable
+	#create $LAN_DIR directory and assign path to a variable
 	if [ ! -d "$LAN_DIR" ]; then
 		mkdir $LAN_DIR
 		sudo updatedb
@@ -327,7 +327,7 @@ function MSFCONSOLE_DIR_SETUP {
 	#change to $MAIN_DIR directory
 	cd ~/$MAIN_DIR
 	#validate if $MSFCONSOLE_DIR directory exists
-	#create $MSFCONSOLE_DIR dirirectory and assign path to a variable
+	#create $MSFCONSOLE_DIR directory and assign path to a variable
 	if [ ! -d "$MSFCONSOLE_DIR" ]; then
 		mkdir $MSFCONSOLE_DIR
 		sudo updatedb
@@ -343,7 +343,7 @@ function SESSION_DIR_SETUP {
 	#change to $MAIN_DIR directory
 	cd ~/$MAIN_DIR
 	#validate if $SESSION_DIR directory exists
-	#create $SESSION_DIR dirirectory and assign path to a variable
+	#create $SESSION_DIR directory and assign path to a variable
 	if [ ! -d "$SESSION_DIR" ]; then
 		mkdir $SESSION_DIR
 		sudo updatedb
@@ -360,7 +360,7 @@ function ARP_DIR_SETUP {
 	#change to $MAIN_DIR/$LAN_DIR directory
 	cd ~/$MAIN_DIR/$LAN_DIR
 	#validate if $ARP_DIR directory exists
-	#create $ARP_DIR dirirectory and assign path to a variable
+	#create $ARP_DIR directory and assign path to a variable
 	if [ ! -d "$ARP_DIR" ]; then
 		mkdir $ARP_DIR
 		sudo updatedb
@@ -377,7 +377,7 @@ function MASSCAN_DIR_SETUP {
 	#change to $MAIN_DIR/$LAN_DIR directory
 	cd ~/$MAIN_DIR/$LAN_DIR
 	#validate if $MASSCAN_DIR directory exists
-	#create $MASSCAN_DIR dirirectory and assign path to a variable
+	#create $MASSCAN_DIR directory and assign path to a variable
 	if [ ! -d "$MASSCAN_DIR" ]; then
 		mkdir $MASSCAN_DIR
 		sudo updatedb
@@ -394,7 +394,7 @@ function NMAP_DIR_SETUP {
 	#change to $MAIN_DIR/$LAN_DIR directory
 	cd ~/$MAIN_DIR/$LAN_DIR
 	#validate if $NMAP_DIR directory exists
-	#create $NMAP_DIR dirirectory and assign path to a variable
+	#create $NMAP_DIR directory and assign path to a variable
 	if [ ! -d "$NMAP_DIR" ]; then
 		mkdir $NMAP_DIR
 		sudo updatedb
@@ -411,7 +411,7 @@ function KERBEROS_DIR_SETUP {
 	#change to $MAIN_DIR/$LAN_DIR directory
 	cd ~/$MAIN_DIR/$LAN_DIR
 	#validate if $KERBEROS_DIR directory exists
-	#create $KERBEROS_DIR dirirectory and assign path to a variable
+	#create $KERBEROS_DIR directory and assign path to a variable
 	if [ ! -d "$KERBEROS_DIR" ]; then
 		mkdir $KERBEROS_DIR
 		sudo updatedb
@@ -428,7 +428,7 @@ function SSH_DIR_SETUP {
 	#change to $MAIN_DIR/$LAN_DIR directory
 	cd ~/$MAIN_DIR/$LAN_DIR
 	#validate if $SSH_DIR directory exists
-	#create $SSH_DIR dirirectory and assign path to a variable
+	#create $SSH_DIR directory and assign path to a variable
 	if [ ! -d "$SSH_DIR" ]; then
 		mkdir $SSH_DIR
 		sudo updatedb
@@ -445,7 +445,7 @@ function RDP_DIR_SETUP {
 	#change to $MAIN_DIR/$LAN_DIR directory
 	cd ~/$MAIN_DIR/$LAN_DIR
 	#validate if $RDP_DIR directory exists
-	#create $RDP_DIR dirirectory and assign path to a variable
+	#create $RDP_DIR directory and assign path to a variable
 	if [ ! -d "$RDP_DIR" ]; then
 		mkdir $RDP_DIR
 		sudo updatedb
